@@ -1,0 +1,82 @@
+.icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.before,
+.ifaUniversitymargin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.before {
+  align-self: stretch;
+  flex: 1;
+}
+.ifaUniversitymargin {
+  height: 80px;
+  width: 94.2px;
+  padding: 0 var(--padding-18xl) var(--padding-11xl) 0;
+  box-sizing: border-box;
+}
+.highSchooluniversityAnd,
+.wantToFind,
+.youAreGraduating {
+  margin: 0;
+}
+.youAreGraduatingContainer {
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+}
+.heading5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divfeatureBlock {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  min-width: 153px;
+}
+.divcolLg4,
+.divfeature,
+.divfeatureBlock {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divfeature {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-2xl) 0 0;
+}
+.divcolLg4 {
+  width: 380px;
+  flex-direction: column;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+  max-width: 380px;
+  min-height: 193px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black1);
+  font-family: var(--h6-mobile-14px-regular);
+}
+@media screen and (max-width: 450px) {
+  .youAreGraduatingContainer {
+    font-size: var(--h6-16px-regular-size);
+    line-height: 19px;
+  }
+  .divfeature {
+    flex-wrap: wrap;
+  }
+}

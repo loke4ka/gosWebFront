@@ -1,0 +1,21 @@
+.iconMargin,
+.newServices {
+  display: flex;
+  align-items: flex-start;
+}
+.iconMargin {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.newServices {
+  width: 100%;
+  position: relative;
+  background-color: var(--nero);
+  flex-direction: column;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}

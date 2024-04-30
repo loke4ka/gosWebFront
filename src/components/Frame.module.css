@@ -1,0 +1,194 @@
+.globalOpportunitiesSystem {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  transition: 0.4s;
+}
+.globalOpportunitiesSystemWrapper {
+  width: 358.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.home {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.homeWrapper {
+  width: 73.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.aboutUs,
+.services {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.aboutUs {
+  white-space: nowrap;
+}
+.frameGroup,
+.frameWrapper {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base-8);
+  text-align: left;
+  font-size: var(--h6-16px-regular-size);
+  color: var(--color-dimgray);
+  font-family: var(--roboto-regular-16);
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.frameIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameContainer {
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.login {
+  flex: 1;
+  position: relative;
+  font-size: var(--h6-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--roboto-regular-16);
+  color: var(--text-color-white);
+  text-align: center;
+}
+.frame,
+.frame1,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-16xl-5) var(--padding-5xs)
+    var(--padding-18xl);
+  background-color: var(--color-darkorchid-200);
+  width: 140.5px;
+  border-radius: var(--br-9xs);
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.frame,
+.frameParent {
+  max-width: 100%;
+}
+.frameParent {
+  width: 600px;
+  justify-content: flex-start;
+  gap: var(--gap-33xl);
+}
+.frame {
+  align-self: stretch;
+  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.1),
+    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 0 0#000, 0 0 0#000;
+  background-color: var(--text-color-white);
+  overflow: hidden;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-3xl-9) var(--padding-base)
+    var(--padding-5xl-4);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--body-large-500-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--roboto-regular-16);
+}
+@media screen and (max-width: 1050px) {
+  .frameWrapper {
+    display: none;
+  }
+  .frameParent {
+    width: 192.49999999999957px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: var(--gap-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameGroup {
+    display: none;
+  }
+}
+
+
+/* styles.module.css */
+
+/* Стили для заднего фона модального окна */
+.modalbackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный цвет */
+  z-index: 9999; /* Установка поверх всего остального контента */
+}
+
+/* Стили для модального окна */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff; /* Цвет фона модального окна */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Тень для эффекта поднятия */
+  z-index: 10000; /* Установка поверх заднего фона */
+}
+
+/* Стили для кнопки закрытия модального окна */
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,105 @@
+.subscribeToOur {
+  margin: 0;
+  width: 387px;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.subscribeToOurNewsletterWrapper {
+  width: 605px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.globalSystemLogo,
+.submit {
+  flex: 1;
+  font-size: var(--h6-16px-regular-size);
+  font-family: var(--roboto-regular-16);
+}
+.globalSystemLogo {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--text-color-white);
+  height: 40px;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  color: var(--color-darkgray-100);
+  min-width: 300px;
+  max-width: 100%;
+}
+.submit {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  color: var(--text-color-white);
+  text-align: center;
+  min-width: 64px;
+}
+.globalSystemLogo1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-7xs);
+  background-color: var(--color-blueviolet);
+  width: 77px;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.globalSystemLogo1:hover {
+  background-color: var(--color-darkorchid-100);
+}
+.frame,
+.infoblock {
+  display: flex;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.infoblock {
+  width: 605px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame {
+  align-self: stretch;
+  background-color: var(--color-darkorchid-200);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--text-color-white);
+  font-family: var(--roboto-regular-16);
+}
+@media screen and (max-width: 750px) {
+  .subscribeToOur {
+    font-size: var(--h4-24px-light-size);
+    line-height: 29px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .subscribeToOur {
+    font-size: var(--body-large-500-size);
+    line-height: 22px;
+  }
+}

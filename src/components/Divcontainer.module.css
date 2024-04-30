@@ -1,0 +1,770 @@
+.requiredListOf {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  font-size: inherit;
+  line-height: 75px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 1110px;
+}
+.ptitleMain {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+}
+.divcolLg12,
+.divrow {
+  display: flex;
+  align-items: flex-start;
+}
+.divcolLg12 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) var(--padding-mini);
+  box-sizing: border-box;
+  max-width: 1140px;
+  min-height: 231px;
+}
+.divrow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+.melbournepngIcon {
+  width: 142.2px;
+  height: 142.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 142.19000244140625px;
+}
+.ifeatureIcon,
+.ifeatureIconmargin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ifeatureIcon {
+  flex: 1;
+}
+.ifeatureIconmargin {
+  height: 261.6px;
+  padding: 0 var(--padding-18xl) 0 0;
+  box-sizing: border-box;
+  min-width: 179.2px;
+}
+.haveACertificate,
+.heading3 {
+  position: relative;
+  flex-shrink: 0;
+}
+.heading3 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.haveACertificate {
+  line-height: 24px;
+  display: inline-block;
+  max-width: 175%;
+}
+.item {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.entranceExamsInterviews,
+.haveTheRequired {
+  margin: 0;
+}
+.haveTheRequiredContainer {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 190%;
+  flex-shrink: 0;
+}
+.item1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.examInPpt {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 152%;
+  flex-shrink: 0;
+}
+.item2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.theExamIn {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 184%;
+  flex-shrink: 0;
+}
+.item3,
+.list {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.item3 {
+  display: flex;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  max-width: 100%;
+}
+.list {
+  padding: var(--padding-3xs);
+  flex-shrink: 0;
+  font-size: var(--h6-16px-regular-size);
+  color: var(--shark);
+}
+.divfeature,
+.divfeatureBlock,
+.list {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.divfeatureBlock {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-4xs-8);
+  min-width: 342px;
+}
+.divfeature {
+  position: absolute;
+  top: 230.2px;
+  left: 0;
+  width: 705.2px;
+  flex-direction: row;
+  align-items: flex-end;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--h3-28px-light-size);
+  color: var(--black1);
+}
+.divrowParent {
+  align-self: stretch;
+  height: 493px;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--shark);
+}
+.koreaapngIcon {
+  width: 183.5px;
+  height: 181.6px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 183.52999877929688px;
+}
+.ifeatureIcon1,
+.ifeatureIconmargin1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ifeatureIcon1 {
+  flex: 1;
+}
+.ifeatureIconmargin1 {
+  height: 403.2px;
+  padding: 0 var(--padding-18xl) 0 0;
+  box-sizing: border-box;
+}
+.southKoreanGovernment,
+.students {
+  margin: 0;
+}
+.southKoreanGovernmentContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 33.6px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 919.469970703125px;
+}
+.heading31 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs-8);
+}
+.theCompletedApplication {
+  position: relative;
+  line-height: 24px;
+}
+.item4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.formIsThe {
+  position: relative;
+  line-height: 24px;
+}
+.item5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.motivationLetter {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 124px;
+}
+.item6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.lettersOfRecommendation {
+  position: relative;
+  line-height: 24px;
+}
+.item7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.certificateOfMedical {
+  position: relative;
+  line-height: 24px;
+}
+.item8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.certificateOfFull {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.item9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.transcriptOfSchool {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.item10,
+.list1 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.item10 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.list1 {
+  font-size: var(--h6-16px-regular-size);
+  color: var(--shark);
+}
+.divfeature1,
+.divfeatureBlock1,
+.list1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.divfeatureBlock1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 597px;
+}
+.divfeature1 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  row-gap: 20px;
+}
+.concordpngIcon {
+  width: 100%;
+  height: 95.3px;
+  position: relative;
+  max-width: 149.33999633789062px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.ifeatureIcon2,
+.ifeatureIconmargin2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ifeatureIcon2 {
+  align-self: stretch;
+  flex: 1;
+}
+.ifeatureIconmargin2 {
+  height: 349.6px;
+  width: 186.3px;
+  padding: 0 var(--padding-18xl) 0 0;
+  box-sizing: border-box;
+}
+.heading32 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 400;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.theAnthonyMorris {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.item11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aPersonalStatement,
+.levelOfCommunity {
+  margin: 0;
+}
+.aPersonalStatementContainer {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 157%;
+  flex-shrink: 0;
+}
+.item12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.referenceLetterFrom {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.item13 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.evidenceOfAcademic {
+  position: relative;
+  line-height: 24px;
+}
+.item14 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.certifiedCopiesOf {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.item15 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aRecentPassport {
+  position: relative;
+  line-height: 24px;
+}
+.item16,
+.list2 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs);
+}
+.item16 {
+  display: flex;
+  justify-content: flex-start;
+}
+.list2 {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: var(--h6-16px-regular-size);
+  color: var(--shark);
+}
+.divfeature2,
+.divfeatureBlock2,
+.list2 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.divfeatureBlock2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-4xs-8);
+  min-width: 400px;
+}
+.divfeature2 {
+  width: 801.3px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.seapngIcon {
+  width: 100%;
+  height: 185px;
+  position: relative;
+  max-width: 173px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.ifeatureIcon3,
+.ifeatureIconmargin3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ifeatureIcon3 {
+  align-self: stretch;
+  flex: 1;
+}
+.ifeatureIconmargin3 {
+  height: 369.6px;
+  width: 210px;
+  padding: 0 var(--padding-18xl) 0 0;
+  box-sizing: border-box;
+}
+.heading33 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.resumeCvForm {
+  position: relative;
+  line-height: 24px;
+}
+.item17 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.foreignerPhysicalExamination {
+  position: relative;
+  line-height: 24px;
+}
+.item18 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.validPassportPhotocopy {
+  position: relative;
+  line-height: 24px;
+}
+.item19 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.highestEducationalDiploma {
+  position: relative;
+  line-height: 24px;
+}
+.item20 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.transcriptsForHighest {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.item21 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.studyOrResearch {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 125%;
+  flex-shrink: 0;
+}
+.item22 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.previousCertificatesOf {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.item23 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.divfeatureBlock3,
+.item23,
+.list3 {
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.list3 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: var(--h6-16px-regular-size);
+  color: var(--shark);
+}
+.divfeatureBlock3 {
+  flex: 1;
+  gap: var(--gap-4xs-8);
+  min-width: 454px;
+}
+.divcontainer,
+.divfeature3,
+.divfeatureBlock3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.divfeature3 {
+  width: 908px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.divcontainer {
+  width: 1140px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-45xl-6);
+  box-sizing: border-box;
+  gap: var(--gap-64xl-7);
+  max-width: 1140px;
+  text-align: left;
+  font-size: var(--h3-28px-light-size);
+  color: var(--black1);
+  font-family: var(--h6-mobile-14px-regular);
+}
+@media screen and (max-width: 1200px) {
+  .divcolLg12,
+  .divcontainer,
+  .requiredListOf {
+    max-width: 100%;
+  }
+  .divcontainer {
+    gap: var(--gap-23xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .requiredListOf {
+    font-size: var(--heading-01-size);
+    line-height: 60px;
+  }
+  .southKoreanGovernmentContainer {
+    max-width: 100%;
+  }
+  .divfeatureBlock1 {
+    margin-left: 0;
+  }
+  .divcontainer {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ifeatureIconmargin {
+    flex: 1;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .divfeature {
+    flex-wrap: wrap;
+  }
+  .divrowParent {
+    height: auto;
+    min-height: 493;
+  }
+  .divfeatureBlock1,
+  .divfeatureBlock2,
+  .divfeatureBlock3 {
+    min-width: 100%;
+  }
+  .divcontainer {
+    gap: var(--gap-2xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .requiredListOf {
+    font-size: var(--font-size-11xl);
+    line-height: 45px;
+  }
+  .heading3 {
+    font-size: var(--font-size-3xl);
+    line-height: 27px;
+  }
+  .divfeatureBlock {
+    min-width: 100%;
+  }
+  .heading32,
+  .heading33,
+  .southKoreanGovernmentContainer {
+    font-size: var(--font-size-3xl);
+    line-height: 27px;
+  }
+}

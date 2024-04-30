@@ -1,0 +1,320 @@
+.divgoogLr13,
+.motivationpdf {
+  flex-shrink: 0;
+  display: flex;
+  debug_commit: f6aba90;
+}
+.motivationpdf {
+  height: 19px;
+  flex: 1;
+  position: relative;
+  align-items: center;
+}
+.divgoogLr13 {
+  margin-top: -331px;
+  width: 316.1px;
+  height: 1px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.usefulGuidelines {
+  margin: 0;
+  width: 408px;
+  position: relative;
+  font-size: inherit;
+  line-height: 75px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1110px;
+}
+.usefulGuidelinesWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.divgoogLr131,
+.ieltspdf {
+  flex-shrink: 0;
+  display: flex;
+}
+.ieltspdf {
+  height: 19px;
+  flex: 1;
+  position: relative;
+  align-items: center;
+  debug_commit: f6aba90;
+}
+.divgoogLr131 {
+  width: 277.8px;
+  height: 1px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--h6-16px-regular-size);
+  color: var(--black1);
+  font-family: var(--roboto-regular-16);
+}
+.frameParent {
+  width: 554px;
+  flex-direction: column;
+  gap: var(--gap-129xl);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--shark);
+  font-family: var(--h6-mobile-14px-regular);
+}
+.divcolLg12,
+.divcontainer,
+.divrow,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divcolLg12 {
+  height: 431px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-41xl) var(--padding-201xl) var(--padding-128xl);
+  box-sizing: border-box;
+  gap: var(--gap-311xl);
+  max-width: 1140px;
+  min-height: 1px;
+}
+.divcontainer,
+.divrow {
+  flex-direction: row;
+}
+.divrow {
+  flex: 1;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.divcontainer {
+  position: absolute;
+  top: 0;
+  left: 390px;
+  width: 1140px;
+  max-width: 1140px;
+}
+.doYouHave {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 1110px;
+}
+.divcolLg121,
+.divtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.divtitle {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-41xl) var(--padding-xl);
+  min-height: 178px;
+}
+.divcolLg121 {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0 var(--padding-mini);
+  max-width: 1140px;
+  min-height: 1px;
+}
+.divrow1,
+.linkSend {
+  display: flex;
+  justify-content: center;
+}
+.divrow1 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.linkSend {
+  width: 152px;
+  position: relative;
+  font-size: var(--h6-16px-regular-size);
+  line-height: 24px;
+  text-transform: uppercase;
+  font-family: var(--font-pt-sans);
+  color: var(--text-color-white);
+  text-align: center;
+  align-items: center;
+  max-width: 500px;
+}
+.button,
+.center {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-xl) var(--padding-sm)
+    var(--padding-2xl);
+  background-color: var(--linear-chathams-blue-cello-rhino-ebony-clay-shark);
+  border-radius: var(--br-11xs);
+  background: linear-gradient(
+    45deg,
+    #133566,
+    #1e3459 25%,
+    #25324d 50%,
+    #2a3140 75%,
+    #2d2f34
+  );
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+}
+.center {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-191xl);
+}
+.divcolLg10,
+.divrow2 {
+  display: flex;
+  box-sizing: border-box;
+}
+.divcolLg10 {
+  width: 950px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+  max-width: 950px;
+  min-height: 1px;
+}
+.divrow2 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.divcontainer1,
+.section1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 1140px;
+}
+.section1 {
+  position: absolute;
+  top: 430.7px;
+  left: 0;
+  background: linear-gradient(
+    45deg,
+    #eff5fd,
+    #eff5fe 25%,
+    #eff5fe 50%,
+    #eff5ff 75%,
+    #eff5ff
+  );
+  align-items: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  font-family: var(--h6-mobile-14px-regular);
+}
+.divcontainerParent,
+.section {
+  align-self: stretch;
+  max-width: 100%;
+}
+.divcontainerParent {
+  height: 660.7px;
+  position: relative;
+}
+.section {
+  background: linear-gradient(
+    45deg,
+    #eff5fd,
+    #e8f0fb 25%,
+    #e1ebf8 50%,
+    #dae5f6 75%,
+    #d3e0f4
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl-3);
+  text-align: left;
+  font-size: var(--h6-16px-regular-size);
+  color: var(--black1);
+  font-family: var(--roboto-regular-16);
+}
+@media screen and (max-width: 1200px) {
+  .divcolLg12,
+  .divcolLg121,
+  .divcontainer,
+  .divcontainer1,
+  .doYouHave,
+  .usefulGuidelines {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .usefulGuidelines {
+    font-size: var(--heading-01-size);
+    line-height: 60px;
+  }
+  .center {
+    padding-left: var(--padding-86xl);
+    padding-right: var(--padding-86xl);
+    box-sizing: border-box;
+  }
+  .divcolLg10 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .linkSend {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .usefulGuidelines {
+    font-size: var(--font-size-11xl);
+    line-height: 45px;
+  }
+  .doYouHave {
+    font-size: var(--font-size-xl);
+    line-height: 30px;
+  }
+  .center {
+    padding-left: var(--padding-33xl);
+    padding-right: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}

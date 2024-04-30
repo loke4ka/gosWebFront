@@ -1,0 +1,163 @@
+.findTheRight {
+  margin: 0;
+  width: 594px;
+  position: relative;
+  font-size: inherit;
+  line-height: 76px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 1110px;
+}
+.center {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-226xl-3) 0 var(--padding-226xl);
+  flex-shrink: 0;
+}
+.allowYouTo,
+.anInternshipIs,
+.careerInterestAn,
+.offersTheEmployer,
+.pipelineForFuture,
+.typicallyAtLeast {
+  margin: 0;
+}
+.anInternshipIsContainer1 {
+  width: 100%;
+}
+.anInternshipIsContainer {
+  width: 956px;
+  position: relative;
+  line-height: 25.92px;
+  display: flex;
+  align-items: center;
+  max-width: 956px;
+}
+.divdescLeft,
+.p {
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.p {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  padding: 0 0 var(--padding-12xs-9);
+  max-width: 100%;
+}
+.divdescLeft {
+  flex: 1;
+  padding: 0 var(--padding-3xs) var(--padding-base);
+}
+.divdescLeft,
+.divdescription,
+.divframe {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.divdescription {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  z-index: 1;
+  margin-top: -1px;
+  text-align: center;
+  font-size: var(--h6-16px-regular-size);
+}
+.divframe {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.divcontainer,
+.divcontainerWrapper,
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.divcontainer {
+  width: 1140px;
+  justify-content: flex-start;
+  padding: var(--padding-140xl) var(--padding-mini) var(--padding-139xl-1);
+  max-width: 1140px;
+}
+.divcontainerWrapper,
+.header {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.header {
+  background-color: var(--whisper);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-sm);
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--heading-01-size);
+  color: var(--black);
+  font-family: var(--h6-mobile-14px-regular);
+}
+@media screen and (max-width: 1150px) {
+  .findTheRight {
+    max-width: 100%;
+  }
+  .center,
+  .divdescription {
+    padding-left: var(--padding-103xl);
+    padding-right: var(--padding-103xl);
+    box-sizing: border-box;
+  }
+  .divdescription {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+  }
+  .divcontainer {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .findTheRight {
+    font-size: var(--font-size-13xl);
+    line-height: 61px;
+  }
+  .anInternshipIsContainer {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .center {
+    padding-left: var(--padding-42xl);
+    padding-right: var(--padding-42xl);
+    box-sizing: border-box;
+  }
+  .divcontainer {
+    padding-top: var(--padding-84xl);
+    padding-bottom: var(--padding-84xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .findTheRight {
+    font-size: var(--h4-24px-light-size);
+    line-height: 46px;
+  }
+  .center {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

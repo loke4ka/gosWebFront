@@ -1,0 +1,186 @@
+.loginregistration {
+  position: absolute;
+  width: 81.48%;
+  top: calc(50% - 12px);
+  left: 9.88%;
+  line-height: 24px;
+  display: inline-block;
+}
+.frame1 {
+  height: 40px;
+  width: 162px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkorchid-200);
+  display: none;
+  color: var(--text-color-white);
+}
+.services {
+  min-width: 61px;
+}
+.aboutUs,
+.internships,
+.services {
+  position: relative;
+  line-height: 24px;
+  display: none;
+}
+.aboutUs {
+  min-width: 64px;
+  white-space: nowrap;
+}
+.internships {
+  min-width: 80px;
+}
+.globalOpportunitiesSystem {
+  font-size: var(--body-large-500-size);
+  color: var(--color-darkslategray-100);
+  display: none;
+}
+.globalOpportunitiesSystem,
+.globalOpportunitiesSystem1 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.globalOpportunitiesSystemWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.aboutUs1,
+.home,
+.services1 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 44px;
+}
+.aboutUs1,
+.services1 {
+  flex: 1;
+  min-width: 61px;
+}
+.aboutUs1 {
+  min-width: 66px;
+  white-space: nowrap;
+}
+.firstNameField,
+.firstNameFieldWrapper {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.firstNameField {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-smi);
+  text-align: left;
+  font-size: var(--h6-16px-regular-size);
+  color: var(--color-dimgray);
+  font-family: var(--roboto-regular-16);
+}
+.firstNameFieldWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.frameIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.login {
+  flex: 1;
+  position: relative;
+  font-size: var(--h6-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--roboto-regular-16);
+  color: var(--text-color-white);
+  text-align: center;
+}
+.frame,
+.frame2,
+.loginBox,
+.loginForm {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.loginBox {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-2xs) var(--padding-5xs)
+    var(--padding-smi);
+  background-color: var(--color-darkorchid-200);
+  width: 92px;
+  border-radius: var(--br-9xs);
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.frame,
+.frame2,
+.loginForm {
+  max-width: 100%;
+}
+.loginForm {
+  width: 323px;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+}
+.frame,
+.frame2 {
+  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.1),
+    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 0 0#000, 0 0 0#000;
+  background-color: var(--text-color-white);
+  overflow: hidden;
+}
+.frame2 {
+  flex: 1;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-mini) var(--padding-base)
+    var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 1;
+  font-size: var(--body-large-500-size);
+  color: var(--color-darkslategray-100);
+}
+.frame {
+  align-self: stretch;
+  justify-content: flex-start;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--h6-16px-regular-size);
+  color: var(--color-dimgray);
+  font-family: var(--roboto-regular-16);
+}
+@media screen and (max-width: 675px) {
+  .firstNameFieldWrapper {
+    display: none;
+  }
+  .loginForm {
+    width: 126px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .loginForm {
+    gap: var(--gap-mid);
+  }
+}

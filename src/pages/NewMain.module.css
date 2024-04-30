@@ -1,0 +1,138 @@
+.frame {
+  width: 672px;
+  height: 130px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.doMoreOf,
+.globalOpportunitiesSystem {
+  position: relative;
+  display: inline-block;
+}
+.globalOpportunitiesSystem {
+  margin: 0;
+  width: 574px;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  max-width: 100%;
+}
+.doMoreOf {
+  width: 370px;
+  line-height: 28px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.doMoreOfWhatMakesYouHappWrapper {
+  width: 574px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkorchid-200);
+}
+.borders,
+.rectangle {
+  background-color: var(--color-plum);
+}
+.rectangle {
+  position: absolute;
+  top: -1.3px;
+  left: -0.5px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.borders {
+  height: 1px;
+  width: 314px;
+  position: relative;
+}
+.frame1,
+.opportunitiesAbroadTitle,
+.subheader {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.opportunitiesAbroadTitle {
+  width: 574px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.frame1,
+.subheader {
+  justify-content: flex-start;
+}
+.frame1 {
+  flex: 1;
+  background-color: var(--text-color-white);
+  flex-direction: column;
+  align-items: center;
+  padding: 64px var(--padding-2xl) var(--padding-61xl) var(--padding-xl);
+  gap: var(--gap-base);
+}
+.subheader {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-13xl);
+}
+.consultationHeader {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.consultationHeader,
+.consultationHeaderWrapper,
+.newMain {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.consultationHeaderWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl) var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.newMain {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: column;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 36px;
+  color: var(--color-gray-100);
+  font-family: var(--roboto-regular-16);
+}
+@media screen and (max-width: 750px) {
+  .globalOpportunitiesSystem {
+    font-size: 29px;
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .consultationHeader {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .globalOpportunitiesSystem {
+    font-size: var(--font-size-3xl);
+    line-height: 24px;
+  }
+  .doMoreOf {
+    font-size: var(--h6-16px-regular-size);
+    line-height: 22px;
+  }
+}
